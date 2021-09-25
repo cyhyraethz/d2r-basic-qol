@@ -5,50 +5,30 @@ This is a basic quality of life mod for Diablo II Resurrected
 ### Features
 
 - Stack Size
-
   - Key stack size increased from 12 to 50
-
   - Tome stack size increased from 20 to 80
-
   - Arrow and bolt stack size increased to 500
-
 - Town Cast
-
   - Enable additional spells to be cast in town
-
     - Teleport, Thunderstorm, Armageddon, Hurricane
-
     - Charge, Leap, Shout, Battle Orders, Battle Command
-
   - Allow some spells to be cast in Werewolf and Werebear
-
     - Teleport, Shout, Battle Orders, Battle Command
-
 - Quest Bug
-
   - Always get quest drops from Andariel
-
   - Even if you forget to talk to Warriv
-
 - Unsocket
-
   - New cube recipe for unsocketing
-
   - Scroll of Town Portal + Socketed Item
-
   - Unsockets items without destroying runes
-
 - Respec
-
   - Free, unlimited respeccing
-
   - New cube recipe for respec token
-
   - Scroll of Town Portal + Scroll of Identify
 
 ### Installation
 
-1. Download the most recent release from the
+1. Download the most recent release of basic-qol.mpq from the
    [releases page](https://github.com/cyhyraethz/d2r-basic-qol/releases)
 
 2. Open your file manager and navigate to your Diablo II Resurrected installation directory,
