@@ -48,6 +48,42 @@ This is a basic quality of life mod for Diablo II Resurrected
 
 8. Start Diablo II Resurrected using the new shortcut and enjoy the quality of life features
 
+### How to Disable Features
+
+I added safe unsocket and free respec as new cube recipes rather than modifying existing cube recipes so
+that the old recipes would still be available. That way if you don't want those features you can simply
+choose not to use those recipes and use the old ones instead (e.g. using a Hel rune to unsocket items,
+destroying the removed gems/runes/jewels, and combining essences to create a Token of Absolution).
+
+However, if you don't want those features and you feel uncomfortable even having them available in the
+game, or if there are other features that you don't want, here are the steps for disabling features:
+
+1. Download [MPQ Editor](http://www.zezula.net/en/mpq/download.html)
+
+2. Start MPQ Editor and open basic-qol.mpq
+
+3. Navigate to data/global/excel (you should see several .bin and .txt files on the right side)
+
+4. Delete the .bin files that correspond to the feature you want to disable
+
+You can also delete the corresponding .txt file if you want; it makes no difference.
+
+Here are the files that are responsible for each feature:
+
+- Stack Size
+  - misc.bin
+- Town Cast
+  - skills.bin
+  - missiles.bin
+- Quest Bug
+  - treasureclassex.bin
+- Unsocket
+  - cubemain.bin
+- Respec
+  - cubemain.bin
+
+Note: deleting cubemain.bin will disable both the safe unsocket and free respec features.
+
 ### Additional Notes
 
 If your cursor is on top of an NPC when casting Teleport in town it will register as you clicking on them
