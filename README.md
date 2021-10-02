@@ -25,6 +25,8 @@ This is a basic quality of life mod for Diablo II Resurrected
   - Free, unlimited respeccing
   - New cube recipe for respec token
   - Scroll of Town Portal + Scroll of Identify
+- Item Level
+  - Show item level
 
 ### Installation
 
@@ -81,8 +83,12 @@ Here are the files that are responsible for each feature:
   - cubemain.bin
 - Respec
   - cubemain.bin
+- Item Level
+  - armor.bin
+  - misc.bin
+  - weapons.bin
 
-Note: deleting cubemain.bin will disable both the safe unsocket and free respec features.
+Note: deleting .bin files will disable all features for which they are responsible.
 
 ### Additional Notes
 
