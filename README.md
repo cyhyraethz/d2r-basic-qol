@@ -4,8 +4,6 @@ This is a basic quality of life mod for Diablo II Resurrected
 
 ### Features
 
-Included in both versions:
-
 - Stack Size
   - Key stack size increased from 12 to 50
   - Tome stack size increased from 20 to 80
@@ -28,7 +26,11 @@ Included in both versions:
   - New cube recipe for respec token
   - Scroll of Town Portal + Scroll of Identify
 - Item Level
-  - Show item level
+  - Display item level next to item names
+- World Event
+  - Herbs can be bought from Gheed
+  - Herbs can be sold to spawn Diablo Clone
+  - Standard of Heroes can also spawn Diablo Clone
 
 Only in expanded:
 
@@ -96,6 +98,8 @@ Here are the files that are responsible for each feature:
   - armor.bin
   - misc.bin
   - weapons.bin
+- World Event
+  - misc.bin
 
 Note: deleting .bin files will disable all features for which they are responsible.
 
