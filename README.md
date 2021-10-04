@@ -4,6 +4,8 @@ This is a basic quality of life mod for Diablo II Resurrected
 
 ### Features
 
+Included in both versions:
+
 - Stack Size
   - Key stack size increased from 12 to 50
   - Tome stack size increased from 20 to 80
@@ -28,10 +30,17 @@ This is a basic quality of life mod for Diablo II Resurrected
 - Item Level
   - Show item level
 
+Only in expanded:
+
+- Storage
+  - Inventory increased to 8x10
+  - Stash and cube increased to 13x16
+
 ### Installation
 
-1. Download the most recent release of basic-qol.mpq from the
+1. Download the most recent release from the
    [releases page](https://github.com/cyhyraethz/d2r-basic-qol/releases)
+   and extract the files
 
 2. Open your file manager and navigate to your Diablo II Resurrected installation directory,
    usually located in `C:\Program Files (x86)\Diablo II Resurrected`
@@ -120,3 +129,7 @@ Holy Grail:
 Community:
 
 - [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
+
+### Credits
+
+Expanded inventory files created by Bonesy
