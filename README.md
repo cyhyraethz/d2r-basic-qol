@@ -97,3 +97,26 @@ and your character will move toward them normally. You can get around this by ho
 hotkey to prevent your character from targeting the NPC, allowing you to Teleport right next to them.
 
 Hurricane and Armageddon can be precast in town but will not display their animations until you leave town.
+
+### Resources
+
+Drop Calculator:
+
+- [Silospen Drop Calculator](https://dropcalc.silospen.com/item.php?np=1&ng=1&mf=0&dec=false&mk=&diff=&qual=&ver=-1&version=113) - website for calculating drop rates
+
+General Information:
+
+- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - original source of game information
+- [Diablo 2 Wiki](https://diablo2.diablowiki.net/Main_Page) - wiki pages for every aspect of the game
+
+Item Storage:
+
+- [Collection Manager](https://youdz.github.io/d2-stash-organizer/) - item storage and management
+
+Holy Grail:
+
+- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - website for tracking grail progress
+
+Community:
+
+- [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
