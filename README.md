@@ -121,6 +121,7 @@ General Information:
 
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - original source of game information
 - [Diablo 2 Wiki](https://diablo2.diablowiki.net/Main_Page) - wiki pages for every aspect of the game
+- [Cheat Sheet](https://htmlpreview.github.io/?https://github.com/Michaelangel007/d2_cheat_sheet/blob/master/index.html) - dense resource with tons of information
 
 Item Storage:
 
@@ -133,6 +134,10 @@ Holy Grail:
 Community:
 
 - [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
+
+Map Tool:
+
+- [D2MapTools](https://gitgud.io/stephenlynx/D2MapTools) - script for saving map seeds
 
 ### Credits
 
