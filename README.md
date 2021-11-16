@@ -2,7 +2,7 @@
 
 This is a basic quality of life mod for Diablo II Resurrected
 
-### Features
+### Main Features
 
 - Stack Size
   - Key stack size increased from 12 to 50
@@ -32,9 +32,12 @@ This is a basic quality of life mod for Diablo II Resurrected
   - Herbs can be sold to spawn Diablo Clone
   - Standard of Heroes can also spawn Diablo Clone
 
-Only in expanded:
+### Optional Features
 
-- Storage
+- Loot Filter
+  - Highlights important items
+  - Shortens the names of junk drops
+- Expanded Storage
   - Inventory increased to 8x10
   - Stash and cube increased to 13x16
 
@@ -44,22 +47,52 @@ Only in expanded:
    [releases page](https://github.com/cyhyraethz/d2r-basic-qol/releases)
    and extract the files
 
-2. Open your file manager and navigate to your Diablo II Resurrected installation directory,
+2. Transfer offline save files into the basic-qol save folder
+   ([link to instructions](#how-to-transfer-save-files))
+
+3. Add any optional features that you want to include
+   ([link to instructions](#how-to-add-optional-features))
+
+4. Open your file manager and navigate to your D2R installation directory,
    usually located in `C:\Program Files (x86)\Diablo II Resurrected`
 
-3. Create a new folder named `mods` in the Diablo II Resurrected installation directory
+5. Create a folder named `mods` in the D2R installation directory if it doesn't exist
 
-4. Create a new folder named `basic-qol` in the new `mods` folder
+6. Create a folder named `basic-qol` in the `mods` folder if it doesn't exist
 
-5. Copy basic-qol.mpq into the new `basic-qol` folder, which should look like this:
+7. Copy `basic-qol.mpq` into the `basic-qol` folder, which should look like this:
 
    `C:\Program FIles (x86)\Diablo II Resurrected\mods\basic-qol\basic-qol.mpq`
 
-6. Create a new shortcut for D2R.exe on your Desktop
+8. Create a new shortcut for D2R.exe on your Desktop
 
-7. Right click on the new shortcut, select properties, and add the `-mod basic-qol` parameters
+9. Right click on the new shortcut, select properties, and add the `-mod basic-qol -txt` parameters
 
-8. Start Diablo II Resurrected using the new shortcut and enjoy the quality of life features
+10. Start Diablo II Resurrected using the new shortcut and enjoy the quality of life features
+
+### How to Transfer Save Files
+
+1. Open your file manager and navigate to your D2R save file directory,
+   usually located in `C:\Users\Username\Saved Games\D2R`
+
+2. Create a folder named `mods` in the D2R save file directory if it doesn't exist
+
+3. Create a folder named `basic-qol` in the `mods` folder if it doesn't exist
+
+4. Copy and paste your character save files into the `basic-qol` folder
+
+### How to Add Features
+
+You may be able to combine other mods using this method as well, as long as they don't rely on any of the
+same modded files (e.g. misc.txt). If you're not sure if they do or not but want to try anyway, I recommend
+backing up your basic-qol.mpq before attempting to merge the data folders. If it asks you whether it should
+replace a file then there is a conflict. Restore from your backup and consider the mods incompatible.
+
+1. Open the `basic-qol.mpq` and `optional` folders in your file manager (e.g. Windows Explorer)
+
+2. Navigate to the optional subdirectory for the feature that you want to add (e.g. lootfilter)
+
+3. Copy the `data` folder into `basic-qol.mpq` and select merge when prompted
 
 ### How to Disable Features
 
@@ -71,37 +104,33 @@ destroying the removed gems/runes/jewels, and combining essences to create a Tok
 However, if you don't want those features and you feel uncomfortable even having them available in the
 game, or if there are other features that you don't want, here are the steps for disabling features:
 
-1. Download [MPQ Editor](http://www.zezula.net/en/mpq/download.html)
+1. Open `basic-qol.mpq` in your file manager (e.g. Windows Explorer)
 
-2. Start MPQ Editor and open basic-qol.mpq
+2. Navigate to `data/global/excel` (you should see several .txt files in this directory)
 
-3. Navigate to data/global/excel (you should see several .bin and .txt files on the right side)
-
-4. Delete the .bin files that correspond to the feature you want to disable
-
-You can also delete the corresponding .txt file if you want; it makes no difference.
+3. Delete the .txt files that correspond to the feature you want to disable
 
 Here are the files that are responsible for each feature:
 
 - Stack Size
-  - misc.bin
+  - misc.txt
 - Town Cast
-  - skills.bin
-  - missiles.bin
+  - skills.txt
+  - missiles.txt
 - Quest Bug
-  - treasureclassex.bin
+  - treasureclassex.txt
 - Unsocket
-  - cubemain.bin
+  - cubemain.txt
 - Respec
-  - cubemain.bin
+  - cubemain.txt
 - Item Level
-  - armor.bin
-  - misc.bin
-  - weapons.bin
+  - armor.txt
+  - misc.txt
+  - weapons.txt
 - World Event
-  - misc.bin
+  - misc.txt
 
-Note: deleting .bin files will disable all features for which they are responsible.
+Note: deleting .txt files will disable all features for which they are responsible.
 
 ### Additional Notes
 
@@ -140,5 +169,7 @@ Map Tool:
 - [D2MapTools](https://gitgud.io/stephenlynx/D2MapTools) - script for saving map seeds
 
 ### Credits
+
+Loot filter files created by Cbraqz
 
 Expanded inventory files created by Bonesy

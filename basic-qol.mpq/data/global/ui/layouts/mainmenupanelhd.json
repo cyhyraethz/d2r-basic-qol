@@ -1,8 +1,6 @@
 {
     "type": "MainMenuHDPanel", "name": "MainMenuPanel",
     "fields": {
-
-		//normal fields
         "fitToParent": true,
         "defaultWidget": "QuickPlayButton",
         "onlinePlayButtonPosition": { "x": -624, "y": 2300 },
@@ -220,42 +218,18 @@
             }
         },
         {
-            "type": "ButtonWidget", "name": "OnlinePlaySettingsButton",
-            "fields": {
-                "anchor": { "x": 0.5 },
-                "rect": { "x": -366, "y": 2017 },
-                "filename": "FrontEnd\\HD\\Final\\FrontEnd_Cog",
-                "focusIndicatorFilename": "Controller/HoverImages/OnlineGameplay_Hover",
-                "focusIndicatorOffset": { "x": 0, "y": 0 },
-                "tooltipString": "@GameCreationHD",
-                "onClickMessage": "PanelManager:OpenPanel:OnlineGameSettingsPanel",
-                "hoveredFrame": 2,
-                "disabledFrame": 3,
-                "disabledTint": { "a": 1.0 },
-                "navigation": {
-                    "up": { "name": "QuickPlayButton" },
-                },
-            }
-		},
-		//
-		// Mod-Title Label and Versionnr
-		//
-		{
-			"type": "TextBoxWidget", "name": "ModTitleLabel",
-			"fields": {
-                "anchor": {"x": 0.5 },
-				"rect": { "x": -965, "y": 1900 },
-				"text": "Basic QoL v1.3",
-				"style": {
-					"fontColor": "$FontColorGoldYellow",
-					"pointSize": "$ExtraLargeFontSize",
-					"alignment": { "h": "left", "v": "bottom" }
-				}
-			}
-		},
-		//
-		//Mod Readme-Button
-		//
+                "type": "TextBoxWidget", "name": "ModTitleLabel",
+                "fields": {
+        "anchor": {"x": 0.5 },
+                        "rect": { "x": -965, "y": 1900 },
+                        "text": "Basic QoL v1.5",
+                        "style": {
+                                "fontColor": "$FontColorGoldYellow",
+                                "pointSize": "$ExtraLargeFontSize",
+                                "alignment": { "h": "left", "v": "bottom" }
+                        }
+                }
+        },
         {
             "type": "ButtonWidget", "name": "ModReadmeBtn",
             "fields": {
@@ -311,12 +285,12 @@
                 "rect": { "x": -17, "y": 1900 },
                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
                 "onClickMessage": "",
-                "textString": "Disabled by Mod",
+                "textString": "Disabled",
                 "text/style": "$StyleFEButtonText",
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonLarge_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
                 "pointSize": "$ExtraLargeFontSize",
-				"textColor": { "r": 0, "g": 0, "b": 0, "a": 255 },
+                "textColor": { "r": 0, "g": 0, "b": 0, "a": 255 },
                 "hoveredFrame": 2,
                 "disabledFrame": 3,
                 "disabledTint": {"a": 1.0 },
@@ -332,8 +306,7 @@
                 "anchor": {"x": 0.5 },
                 "rect": { "x": 17, "y": 2300 },
                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
-				"onClickMessage": "",
-                // disabled: FrontEndNavigation:ToLobby
+                "onClickMessage": "",
                 "text/style": "$StyleFEButtonText",
                 "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonLarge_Hover",
                 "focusIndicatorOffset": { "x": 0, "y": 0 },
@@ -348,5 +321,5 @@
                 },
             }
         },
-]
+    ]
 }
