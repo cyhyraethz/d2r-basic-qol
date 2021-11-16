@@ -56,9 +56,9 @@ This is a basic quality of life mod for Diablo II Resurrected
 4. Open your file manager and navigate to your D2R installation directory,
    usually located in `C:\Program Files (x86)\Diablo II Resurrected`
 
-5. Create a folder named `mods` in the D2R installation directory if it doesn't exist
+5. Create a folder named `mods` in the D2R installation directory if it doesn't already exist
 
-6. Create a folder named `basic-qol` in the `mods` folder if it doesn't exist
+6. Create a folder named `basic-qol` in the `mods` folder if it doesn't already exist
 
 7. Copy `basic-qol.mpq` into the `basic-qol` folder, which should look like this:
 
@@ -75,9 +75,9 @@ This is a basic quality of life mod for Diablo II Resurrected
 1. Open your file manager and navigate to your D2R save file directory,
    usually located in `C:\Users\Username\Saved Games\D2R`
 
-2. Create a folder named `mods` in the D2R save file directory if it doesn't exist
+2. Create a folder named `mods` in the D2R save file directory if it doesn't already exist
 
-3. Create a folder named `basic-qol` in the `mods` folder if it doesn't exist
+3. Create a folder named `basic-qol` in the `mods` folder if it doesn't already exist
 
 4. Copy and paste your character save files into the `basic-qol` folder
 
@@ -170,6 +170,6 @@ Map Tool:
 
 ### Credits
 
-Loot filter files created by Cbraqz
+Loot filter created by Cbraqz
 
-Expanded inventory files created by Bonesy
+Expanded storage created by Bonesy
