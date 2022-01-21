@@ -35,7 +35,7 @@
                     "type": "TextBoxWidget", "name": "Title",
                     "fields": {
                         "rect": { "x": 0, "y": -150 },
-                        "text": "Basic QoL v1.5",
+                        "text": "Basic QoL v1.51",
                         "style": {
                             "fontColor": "$FontColorGoldYellow",
                             "pointSize": "$ExtraLargeFontSize",
@@ -62,7 +62,7 @@
                     "type": "TextBoxWidget", "name": "ModReadme",
                     "fields": {
                         "rect": { "x": -800, "y": 100, "width": 860, "height": 600  },
-                        "text": "\nIncreased stack size for keys, tomes, and quivers\n\nAdditional spells can be cast in town (e.g. Teleport)\n\nAlways get quest drops from Andariel (Quest Bug)\n\nNew cube recipe for safe unsocket (TP Scroll + Item)\n\nNew cube recipe for respec token (TP Scroll + ID Scroll)\n\nItem levels are displayed next to item names\n\nStandard of Heroes can be sold to spawn dclone\n\nGheed sells herbs that can be sold to spawn dclone",
+                        "text": "\nIncreased stack size for keys, tomes, and quivers\n\nAdditional spells can be cast in town (e.g. Teleport)\n\nAlways get quest drops from Andariel (Quest Bug)\n\nNew cube recipe for safe unsocket (TP Scroll + Item)\n\nNew cube recipe for respec token (TP Scroll + ID Scroll)\n\nItem levels are displayed next to item names\n\nStandard of Heroes can be sold to spawn dclone\n\nGheed sells herbs that can be sold to spawn dclone\n\nCreate portal to Secret Cow Level without Wirt's Leg",
                         "fontType": "12ptF",
                         "style": {
                             "fontColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
