@@ -31,6 +31,10 @@ This is a basic quality of life mod for Diablo II Resurrected
   - Herbs can be bought from Gheed
   - Herbs can be sold to spawn Diablo Clone
   - Standard of Heroes can also spawn Diablo Clone
+- Cow Level
+  - Create portal without Wirt's Leg
+  - New cube recipe for Cow Level Portal
+  - Transmute a Tome of Town Portal in the cube
 
 ### Optional Features
 
@@ -129,6 +133,8 @@ Here are the files that are responsible for each feature:
   - weapons.txt
 - World Event
   - misc.txt
+- Cow Level
+  - cubemain.txt
 
 Note: deleting .txt files will disable all features for which they are responsible.
 

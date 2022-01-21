@@ -152,3 +152,4 @@ Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2
 1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
 Scroll of Town Portal + Scroll of Identify -> Token of Absolution	1			100					2	isc	tsc						toa																																																																																							0
 Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1			100					2	"any,sock"	tsc						"useitem,rem"																																																																																							0
+Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				1	tbk							Cow Portal																																																																																							0
