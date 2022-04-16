@@ -245,7 +245,7 @@
 			"fields": {
                 "anchor": {"x": 0.5 },
 				"rect": { "x": -965, "y": 1900 },
-				"text": "Basic QoL v1.51",
+				"text": "Basic QoL v2.0",
 				"style": {
 					"fontColor": "$FontColorGoldYellow",
 					"pointSize": "$ExtraLargeFontSize",

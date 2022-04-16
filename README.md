@@ -55,7 +55,7 @@ This is a basic quality of life mod for Diablo II Resurrected
    ([link to instructions](#how-to-transfer-save-files))
 
 3. Add any optional features that you want to include
-   ([link to instructions](#how-to-add-optional-features))
+   ([link to instructions](#how-to-add-features))
 
 4. Open your file manager and navigate to your D2R installation directory,
    usually located in `C:\Program Files (x86)\Diablo II Resurrected`
